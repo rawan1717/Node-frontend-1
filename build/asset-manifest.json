@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a497faa.css",
+    "main.js": "/static/js/main.e76d2914.js",
+    "static/media/22.jpg": "/static/media/22.5672a2ab3775db85c583.jpg",
+    "static/media/61810.jpg": "/static/media/61810.564740bb3ecc10592e8a.jpg",
+    "static/media/44.jpg": "/static/media/44.5ebd3cb659318669b733.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/1.jpeg": "/static/media/1.0c23fc3c9ba90e81b584.jpeg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/55.jpg": "/static/media/55.64ed2a975b2418457507.jpg",
+    "static/media/Jeddah.jpg": "/static/media/Jeddah.ef99ea4571f73c9d286f.jpg",
+    "static/media/4.jpeg": "/static/media/4.868c165d3c13a323a834.jpeg",
+    "static/media/3.png": "/static/media/3.f3ef8830eee97e62a638.png",
+    "static/media/alula-elephant.jpg": "/static/media/alula-elephant.d9caa3ae181eca857700.jpg",
+    "static/media/33.jpg": "/static/media/33.47e4958bd607573a54d7.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/6.png": "/static/media/6.e5a1a1935a4d7a8e21b5.png",
+    "static/media/2.jpeg": "/static/media/2.75f7ff66e8f3acfabfaf.jpeg",
+    "static/media/logo.jpg": "/static/media/logo.2160f28078d240e779e2.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.2a497faa.css.map": "/static/css/main.2a497faa.css.map",
+    "main.e76d2914.js.map": "/static/js/main.e76d2914.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a497faa.css",
+    "static/js/main.e76d2914.js"
+  ]
+}
