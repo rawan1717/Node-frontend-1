@@ -2,33 +2,25 @@ name: CI
 
 on:
   push:
-    branches:
-      - main        # Change this if your main branch has a different name (e.g., 'master')
+    branches: [ main ]  # Trigger the workflow only when code is pushed to the main branch
   pull_request:
-    branches:
-      - main        # This can also be adjusted to your needs
+    branches: [ main ]   # Trigger for pull requests to the main branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        
+      - name: Checkout Code
+        uses: actions/checkout@v2  # Checkout the code from the repository
+
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2  # Setup Node.js environment
         with:
-          node-version: '20' # Use Node.js v20.x
+          node-version: '20.16.0'  # Use the version of Node.js your app requires
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install Dependencies
+        run: npm install  # Install dependencies defined in package.json
 
-      - name: Run tests
-        continue-on-error: true 
-        run: npm test -- --watchAll=true || true 
-
-      - name: Report test results
-        run: |
-          echo "Tests executed. You can check the logs for the results."
-          # You can add more reporting or processing commands here.
+      - name: Run Tests
+        run: npm test -- --watchAll=false || true  
